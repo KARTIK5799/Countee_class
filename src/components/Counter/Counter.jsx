@@ -23,7 +23,7 @@ class Counter extends Component {
       <div className="flex items-center justify-center min-h-screen">
         <div className="bg-gray-200 p-8 rounded-md shadow-md text-center">
           <h1 className="text-3xl font-bold mb-4">Counter App</h1>
-          <h2 className="text-2xl font-bold mb-4">Counte: {this.state.count}</h2>
+          <h2 className="text-2xl font-bold mb-4">Count: {this.state.count}</h2>
           <button
             className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2"
             onClick={this.handleIncrement}
